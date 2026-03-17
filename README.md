@@ -1,128 +1,137 @@
 # eeg_visulization
 
-EEG Signal Analysis, Classification & Visualization
+Here’s your **clean, professional README.md without emojis**:
+
+---
+
+# EEG Signal Analysis, Classification & Visualization
 
 A comprehensive EEG data analysis project that combines data engineering, machine learning, and signal visualization to extract meaningful insights from brainwave data.
 
- Overview
+---
+
+## Overview
 
 This project processes EEG (electroencephalogram) data to analyze brain signal patterns and classify psychiatric conditions using machine learning.
 
-The workflow includes:
+### Workflow includes:
 
-Data ingestion from EEG datasets
+* Data ingestion from EEG datasets
+* Preprocessing and feature extraction
+* Machine learning-based classification
+* EEG signal visualization using brain maps
 
-Preprocessing and feature extraction
+---
 
-Machine learning-based classification
+## Pipeline Architecture
 
-EEG signal visualization using brain maps
-
- Pipeline Architecture
-
+```
 EEG Dataset → Data Cleaning → Feature Engineering → Model Training → Evaluation → Visualization
+```
 
- Features
+---
 
- EEG dataset ingestion (Kaggle dataset)
+## Features
 
- Data preprocessing and cleaning
+* EEG dataset ingestion (Kaggle dataset)
+* Data preprocessing and cleaning
+* Feature selection and encoding
+* Machine learning classification
+* Model evaluation (confusion matrix, classification report)
+* EEG signal visualization using topographic mapping
+* Frequency band analysis:
 
-Feature selection and encoding
+  * Delta
+  * Theta
+  * Alpha
+  * Beta
+  * Gamma
 
- Machine learning classification
+---
 
- Model evaluation (confusion matrix, classification report)
+## Tech Stack
 
- EEG signal visualization using topographic mapping
+**Language:**
 
- Frequency band analysis (delta, theta, alpha, beta, gamma)
+* Python
 
-🛠️ Tech Stack
+**Libraries:**
 
-Language: Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+* MNE (EEG visualization)
+* Graphviz
 
-Libraries:
+---
 
-Pandas, NumPy
+## Machine Learning Workflow
 
-Scikit-learn
+* Data preprocessing and encoding
+* Train-test split
+* Model training (classification)
 
-Matplotlib, Seaborn
+**Evaluation using:**
 
-MNE (EEG visualization)
+* Confusion Matrix
+* Classification Report
 
-Graphviz
+---
 
-📊Machine Learning Workflow
+## EEG Visualization
 
-Data preprocessing and encoding
+* Brain electrode mapping using MNE
+* Topographic visualization of EEG signals
 
-Train-test split
+**Multi-band analysis:**
 
-Model training (classification)
+* Delta
+* Theta
+* Alpha
+* Beta
+* Gamma
 
-Evaluation using:
+---
 
-Confusion Matrix
+## How to Run
 
-Classification Report
+Open in Google Colab or Jupyter Notebook:
 
- EEG Visualization
-
-Brain electrode mapping using MNE
-
-Topographic visualization of EEG signals
-
-Multi-band analysis:
-
-Delta
-
-Theta
-
-Alpha
-
-Beta
-
-Gamma
-
-How to Run
-
-Open in Google Colab or Jupyter:
-
+```bash
 pip install mne seaborn scikit-learn
+```
 
 Run all cells in:
 
+```
 eeg_visualisation.ipynb
-Outputs
+```
 
-EEG brain maps
+---
 
-Signal band visualizations
+## Outputs
 
-Classification results
+* EEG brain maps
+* Signal band visualizations
+* Classification results
+* Confusion matrix and performance metrics
 
-Confusion matrix and performance metrics
+---
 
- Future Improvements
+## Future Improvements
 
-Real-time EEG streaming pipeline
+* Real-time EEG streaming pipeline
+* Integration with FastAPI backend
+* Cloud deployment for scalable processing
+* Deep learning models for EEG classification
+* Interactive dashboard for visualization
 
-Integration with FastAPI backend
+---
 
-Cloud deployment for scalable processing
-
-Deep learning models for EEG classification
-
-Interactive dashboard for visualization
-
-Use Case
+## Use Case
 
 This project demonstrates how EEG data can be processed and analyzed for:
 
-Mental health insights
-
-Brain signal interpretation
-
-Neurotechnology applications
+* Mental health insights
+* Brain signal interpretation
+* Neurotechnology applications
